@@ -10,6 +10,8 @@ The data must be downlaoded and unzipped into the same directory directory as ru
 1. Loads the X train and X Test data and puts them into a single table
 2. Lables the table using the information in features.txt file
 3. Extracts only the columns of the table that hold either mean or standard divation by using a regular expression
-..* mean\\(\\)
-..* std\\(\\)
-4.
+  * `mean\\(\\)`
+  * `std\\(\\)`
+4. Change the column names to standard naming formats by using a regular expression and tolower() function
+  * tolower(`gsub("\\(|\\)|-", "", names(x.extracted)))`
+5. v
