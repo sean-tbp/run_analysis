@@ -19,7 +19,7 @@ To use run_analysis.R:
 * run the script
 
 run_analysis.R will produce:
-* extracted_measurements.txt, a csv file with extracted standard deviation and mean data
-* tidy_data.txt, a csv file containing the tidy data -- see CodeBook.md for details.
+* extracted_measurements.txt, a 10299x68 csv file with extracted standard deviation and mean data
+* tidy_data.txt, a 35x68 csv file containing the tidy data -- see CodeBook.md for details.
 
 
