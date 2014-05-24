@@ -26,7 +26,7 @@ The data must be downlaoded and unzipped into the same directory directory as ru
 8. Load the subject ID information and add to the data table
 9. Melt the data with the variables as the extracted measures
 10. Cast the molten data into a table (data frame) that contains the mean for a measure for the subject and activity
-11.  This "tidy" data set it saved as `tidy_data.txt`
+11.  This "tidy" data set it saved as `tidy_data.txt`.  The table is 35 rows and 68 variables.
 
 #### tidy_data.txt contains the following variables:
 * subjectid -- subject's id        
