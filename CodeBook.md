@@ -29,72 +29,72 @@ The data must be downlaoded and unzipped into the same directory directory as ru
 11.  This "tidy" data set it saved as `tidy_data.txt`
 
 #### tidy_data.txt contains the following variables:
-
-subjectid              
-activity                 
-tbodyaccmeanx
-tbodyaccmeany           
-tbodyaccmeanz
-tgravityaccmeanx
-tgravityaccmeany
-tgravityaccmeanz
-tbodyaccjerkmeanx
-tbodyaccjerkmeany
-tbodyaccjerkmeanz
-tbodygyromeanx        
-tbodygyromeany
-tbodygyromeanz
-tbodygyrojerkmeanx
-tbodygyrojerkmeany
-tbodygyrojerkmeanz
-tbodyaccmagmean
-tgravityaccmagmean
-tbodyaccjerkmagmean
-tbodygyromagmean
-tbodygyrojerkmagmean
-fbodyaccmeanx
-fbodyaccmeany
-fbodyaccmeanz
-fbodyaccjerkmeanx
-fbodyaccjerkmeany
-fbodyaccjerkmeanz
-fbodygyromeanx
-fbodygyromeany
-fbodygyromeanz
-fbodyaccmagmean
-fbodybodyaccjerkmagmean
-fbodybodygyromagmean
-fbodybodygyrojerkmagmean
-tbodyaccstdx     
-tbodyaccstdy
-tbodyaccstdz
-tgravityaccstdx
-tgravityaccstdy 
-tgravityaccstdz
-tbodyaccjerkstdx
-tbodyaccjerkstdy
-tbodyaccjerkstdz"        
-tbodygyrostdx
-tbodygyrostdy
-tbodygyrostdz
-tbodygyrojerkstdx
-tbodygyrojerkstdy
-tbodygyrojerkstdz
-tbodyaccmagstd
-tgravityaccmagstd
-tbodyaccjerkmagstd
-tbodygyromagstd
-tbodygyrojerkmagstd
-fbodyaccstdx  
-fbodyaccstdy
-fbodyaccstdz
-fbodyaccjerkstdx
-fbodyaccjerkstdy
-fbodyaccjerkstdz
-fbodygyrostdx
-fbodygyrostdy
-fbodygyrostdz
-fbodyaccmagstd
-fbodybodyaccjerkmagstd
-fbodybodygyromagstd
-fbodybodygyrojerkmagstd
+* subjectid -- subject's id        
+* activity  -- The activity as listed above                 
+* The mean for each measure for the combination of subject id and activity
+  * tbodyaccmeanx
+  * tbodyaccmeany           
+  * tbodyaccmeanz
+  * tgravityaccmeanx
+  * tgravityaccmeany
+  * tgravityaccmeanz
+  * tbodyaccjerkmeanx
+  * tbodyaccjerkmeany
+  * tbodyaccjerkmeanz
+  * tbodygyromeanx        
+  * tbodygyromeany
+  * tbodygyromeanz
+  * tbodygyrojerkmeanx
+  * tbodygyrojerkmeany
+  * tbodygyrojerkmeanz
+  * tbodyaccmagmean
+  * tgravityaccmagmean
+  * tbodyaccjerkmagmean
+  * tbodygyromagmean
+  * tbodygyrojerkmagmean
+  * fbodyaccmeanx
+  * fbodyaccmeany
+  * fbodyaccmeanz
+  * fbodyaccjerkmeanx
+  * fbodyaccjerkmeany
+  * fbodyaccjerkmeanz
+  * fbodygyromeanx
+  * fbodygyromeany
+  * fbodygyromeanz
+  * fbodyaccmagmean
+  * fbodybodyaccjerkmagmean
+  * fbodybodygyromagmean
+  * fbodybodygyrojerkmagmean
+  * tbodyaccstdx     
+  * tbodyaccstdy
+  * tbodyaccstdz
+  * tgravityaccstdx
+  * tgravityaccstdy 
+  * tgravityaccstdz
+  * tbodyaccjerkstdx
+  * tbodyaccjerkstdy
+  * tbodyaccjerkstdz
+  * tbodygyrostdx
+  * tbodygyrostdy
+  * tbodygyrostdz
+  * tbodygyrojerkstdx
+  * tbodygyrojerkstdy
+  * tbodygyrojerkstdz
+  * tbodyaccmagstd
+  * tgravityaccmagstd
+  * tbodyaccjerkmagstd
+  * tbodygyromagstd
+  * tbodygyrojerkmagstd
+  * fbodyaccstdx  
+  * fbodyaccstdy
+  * fbodyaccstdz
+  * fbodyaccjerkstdx
+  * fbodyaccjerkstdy
+  * fbodyaccjerkstdz
+  * fbodygyrostdx
+  * fbodygyrostdy
+  * fbodygyrostdz
+  * fbodyaccmagstd
+  * fbodybodyaccjerkmagstd
+  * fbodybodygyromagstd
+  * fbodybodygyrojerkmagstd
