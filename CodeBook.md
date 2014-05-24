@@ -14,4 +14,17 @@ The data must be downlaoded and unzipped into the same directory directory as ru
   * `std\\(\\)`
 4. Change the column names to standard naming formats by using a regular expression and tolower() function
   * tolower(`gsub("\\(|\\)|-", "", names(x.extracted)))`
-5. v
+5. Load the Y train and Y test data which is the list of activities recorded
+6. Transform the Y table into meaningful activity names
+  * WALKING
+  * WALKING_UPSTAIRS
+  * WALKING_DOWNSTAIRS
+  * SITTING
+  * STANDING
+  * LAYING
+7. Save this data to the file `extracted_measurements.txt`
+8. Load the subject ID information and add to the data table
+9. Melt the data with the variables as the extracted measures
+10. Cast the molten data into a table (data frame) that contains the mean for a measure for the subject and activity
+11.  This "tidy" data set it saved as `tidy_data.txt`
+
